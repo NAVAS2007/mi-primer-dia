@@ -14,18 +14,23 @@ Pulsa **Empezar** para jugar; usa las teclas **1**, **2** y **3** para elegir, *
 
 ## 3. Enlace para abrirlo
 
-Con el servidor de desarrollo en marcha, abre: <http://localhost:5173/>
+Abre la versión publicada en GitHub Pages: <https://navas2007.github.io/mi-primer-dia/>
 
 ## 4. Cómo correrlo en otra máquina
 
-Instala una versión actual de Node.js y ejecuta desde la carpeta del proyecto:
+Instala Node.js 22 o posterior y ejecuta desde la carpeta del proyecto:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Abre <http://localhost:5173/> en el navegador.
+Abre <http://localhost:5173/> en el navegador. Para compilar y probar el proyecto:
+
+```sh
+npm test
+npm run build
+```
 
 ## 5. Qué dirigí yo y qué error encontré probando
 
